@@ -1,0 +1,9 @@
+site_name: Integració de sistemes d'automatització
+docs_dir: 'docs'
+site_dir: 'site'
+
+theme:
+  name: readthedocs
+
+nav:
+  - Inici: index.md
