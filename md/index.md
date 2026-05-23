@@ -118,3 +118,9 @@ Podeu veure el procés d'edició detallat en el següent recurs extern:
 
 !!! note "Nota"
     Recordeu activar els subtítols per a una millor comprensió del vídeo.
+
+---
+
+## 3. Document complet
+
+[⬇ Veure PDF](index.pdf){target="_blank"}

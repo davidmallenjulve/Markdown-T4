@@ -1,6 +1,6 @@
 site_name: Integració de sistemes d'automatització
-docs_dir: 'md'
-site_dir: 'docs'
+docs_dir: 'docs'
+site_dir: 'site'
 
 theme:
   name: material
@@ -28,6 +28,8 @@ plugins:
   - page-to-pdf
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.highlight:
