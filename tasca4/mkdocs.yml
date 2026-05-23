@@ -1,0 +1,42 @@
+site_name: Integració de sistemes d'automatització
+docs_dir: 'docs'
+site_dir: 'site'
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Canvia a mode fosc
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Canvia a mode clar
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - content.code.copy
+
+plugins:
+  - search
+  - page-to-pdf
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Inici: index.md
