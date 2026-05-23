@@ -108,7 +108,7 @@ graph TD;
     Si el símbol no es troba a la biblioteca estàndard IEC, pots crear-ne un de personalitzat des de **Eines → Editor de símbols** o importar una biblioteca de tercers.
 
 ??? tip "Puc treballar en múltiples pàgines alhora?"
-    Sí. EPLAN permet obrir diverses pàgines en pestanyes independents. Usa **Ctrl+Tab** per navegar entre elles ràpidament.
+    Sí. EPLAN permet obrir diverses pàgines en pestanyes independents. Usa `Ctrl+Tab` per navegar entre elles ràpidament.
 
 ### 2.5. Vídeo de suport
 
